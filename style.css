@@ -1,0 +1,44 @@
+.container {
+  margin: 5%;
+}
+.imagearticle {
+  width: 180px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.articlebox {
+  width: 100%;
+  display: flex;
+  border: solid 1px grey;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+
+.leftbox {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+.rightbox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: whitesmoke;
+}
+#contents {
+  font-size: 1rem;
+}
+
+#title {
+  font-size: 1.5rem;
+}
+
+.pagebutton {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
